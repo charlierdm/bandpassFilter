@@ -1,4 +1,4 @@
-const { bandpassFilter } = require("./bandpassFilter");
+import { bandpassFilter } from "./bandpassFilter";
 
 describe("bandpassFilter", () => {
   it("throws an error if the input track array is empty", () => {
