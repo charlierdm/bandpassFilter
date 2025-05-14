@@ -1,19 +1,12 @@
-## Specifications
+## Bandpass Filter
 
-<strong>
-Our company creates digital Audio plugins.
-
-Electronic music producers apply our filters to change how their tracks sound.
-
-Create a bandpass filter.
-
-The bandpass filter will take 3 inputs.
+JS exercise.
 
 #### 1st input
 
-- Music track - an array of frequencies.
+- Music, an array of frequencies.
 - Each frequency is represented by an integer.
-- Must never be an emtpy array or contain null.
+- Must never be an emtpy array or contain falsy values.
 
 #### 2nd input
 
@@ -22,7 +15,6 @@ The bandpass filter will take 3 inputs.
 #### 3rd input
 
 - upper limit of the bandpass filter represented by a single integer.
-  </strong>
 
 ## Input / Output examples
 
